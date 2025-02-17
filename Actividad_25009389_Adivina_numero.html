@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2025 by gu-sta-vo (http://jsbin.com/yukoron/23/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+var again = 0;
+var ingreso = 0;
+
+var aleatorio = Math.floor(Math.random() * 9) + 1
+
+console.log(aleatorio)
+
+while(ingreso>=3 || ingreso<=6){
+
+	ingreso = prompt("Ingrese un número entre 3 y 6")
+}
+	if(ingreso >=3<=6){
+again
+  alert("Usted ingreso el número " + ingreso)
+} 
+ if(ingreso == aleatorio){
+
+alert("Felicidades has ganado el número a adivinar era " + aleatorio)
+} else{ 
+alert("Sigue intentandolo")
+
+}
+</script>
+</body>
+</html>
